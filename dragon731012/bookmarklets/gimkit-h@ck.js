@@ -1,4 +1,4 @@
-alert("not mine view owner here https://github.com/non-reai press ; to save answer and press u to auto answer"); var socket = null;
+javascript: alert("not mine view owner here https://github.com/non-reai press ; to save answer and press u to auto answer"); var socket = null;
 var lastDataSent = null;
 var using = null;
 var answer = false;
