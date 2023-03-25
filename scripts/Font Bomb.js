@@ -1,4 +1,3 @@
-
 (function() {
   var Bomb, Explosion, Particle, targetTime, vendor, w, _i, _len, _ref,
     __bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; };
