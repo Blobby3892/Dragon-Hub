@@ -7,5 +7,5 @@ Just a UI made to have all bookmarklets into one.
 - [ ] More colors for GUI
 
 <details><summary><h3>Scripts</h3></summary>
-[Test](https://github.com/Minesraft2/Blooket-Cheats)
+[Test](https://youtube.com)
 </details>
