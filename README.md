@@ -9,12 +9,12 @@ Just a UI made to have all bookmarklets into one.
 - [ ] More Scripts
 - [ ] More colors for GUI
 
-<details><summary><h3>List of Cheats</h3></summary>
+<details><summary><h2>List of Cheats</h2></summary>
 
   * [GUI](obfuscated.js)
   
   ### [Scripts](dragon-hub/scripts)
 
   
-  [About Blank](https://github.com/Blobby3892/Dragon-Hub/blob/main/scripts/About%20Blank.js)
+  [About Blank](scripts/aboutblank.js)
 </details>
