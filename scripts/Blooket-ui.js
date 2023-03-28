@@ -1,26 +1,12 @@
-/**
-* @license StewartPrivateLicense-2.0.1
-* Copyright (c) Aerell McKnight 2023
-*
-* You may not reproduce or distribute any code inside this file without the licenser's permission.
-* You may not copy, modify, steal, skid, or recreate any of the code inside this file.
-* You may not under any circumstance republish any code from this file as your own.
-* 
-* ALL TERMS STATED IN THE LINK BELOW APPLY ASWELL
-* https://github.com/Minesraft2/Blooket-Cheats/blob/main/LICENSE
-*/
 
-/* THE UPDATE CHECKER IS ADDED DURING COMMIT PREP, THERE MAY BE REDUNDANT CODE, DO NOT TOUCH */
-
-/* Update Checker start */
-(async () => { /* This is to prevent "identifier i is already declared errors" */
+(async () => {
     let i = document.createElement('iframe');
     document.body.append(i);
     window.confirm = i.contentWindow.confirm.bind(window);
     i.remove();
     Object.values(webpackJsonp.push([[], { ['']: (_, a, b) => { a.cache = b.c }, }, [['']]]).cache).find(x => x.exports?.a?.get).exports.a.get("https://" + (location.host.startsWith("dashboard") ? location.host + "/api/games" : "play.blooket.com/api/gamequestionsets") + "?gameId=6368436a976422d8a3f70cd7").then(x => parseInt(`0${x.data.questions.find(x => x.question == "../scripts/blooket-ui.js")?.answers?.[0]}`)).then(async x => {
         if (1679266639757 > x || confirm("This cheat is outdated and might be bugged, would you still like to run it? You can find regularly updated cheats here https://github.com/Minesraft2/Blooket-Cheats")) {
-            /* Update Checker end */
+          
             ; (() => {
                 let n = document.createElement('iframe');
                 document.body.append(n);
@@ -80,7 +66,7 @@
                     fontSize: '1.5rem',
                     textAlign: 'center'
                 });
-                header.innerHTML = `Blooket Cheats <span style="font-size: 0.75rem">v12.18.22</span>`;
+                header.innerHTML = `Blooket Cheats <span style="font-size: 0.75rem">v3</span>`;
             
                 let close = document.createElement('button');
                 header.appendChild(close);
@@ -143,7 +129,7 @@
                 bodyDiv.appendChild(footer);
                 footer.style.fontSize = '0.9rem';
                 footer.style.paddingBottom = '5px';
-                footer.innerHTML = (`<span><a target="blank" href="https://discord.gg/QznzysxvX4">Made originally by OneMinesraft2#5372 / Made better by Blobby3892</a></span>`);
+                footer.innerHTML = (`<span><a target="blank" href="https://discord.gg/QznzysxvX4">Made better by Blobby3892</a></span>`);
             
                 let cheats = ({
                     global: [
@@ -2210,6 +2196,35 @@ setInterval(function() { obj.isFrenzy = true;})
                                     }
                                     alert(`Reset ${count} players' gold!`);
                                 })
+                            }
+                        },
+                        
+                        {
+                        		name: "OP Chest",
+                            description:"Overpowered chest options",
+                            run: function () {
+                            setInterval(function(){var obj = Object.values(document.querySelector("#app > div > div"))[1].children[0]._owner.stateNode.state;
+ obj.choices = [{
+      "type": "multiply",
+      "val": 100,
+      "text": "Multiply Gold!",
+      "blook": "Ice Crab"
+    },
+    {
+      "type": "swap",
+      "text": "SWAP!",
+      "blook": "White Peacock"
+    },
+    {
+      "type": "gold",
+      "val": 1000000,
+      "text": "+ 100000000 Gold",
+      "blook": "Ice Slime"
+      
+    }
+  ]
+})
+
                             }
                         }
                     ],
