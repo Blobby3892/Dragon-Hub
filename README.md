@@ -16,5 +16,5 @@ Just a UI made to have all bookmarklets into one.
   ### [Scripts](dragon-hub/scripts)
 
   
-  [About Blank](scripts/aboutblank.js)
+  [About Blank](scripts/about blank.js)
 </details>
