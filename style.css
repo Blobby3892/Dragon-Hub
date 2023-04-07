@@ -18,12 +18,11 @@
 
 .background-image {
     position: absolute;
-    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/000/556/930/small/RR-v-jan-2019-135.jpg);
+    background-image: url(https://t4.ftcdn.net/jpg/03/68/64/13/360_F_368641364_zdF9y5JnDUb89cQ54U7AES7f2AVH4sou.jpg);
     width: 11000px; /* 550*200 */
     height: 11320px; /* 566*200 */
-    opacity: 0.175;
+    opacity: 1;
     z-index: -1;
-    animation: 20s blooks linear infinite;
 }
 
 .main {
