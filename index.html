@@ -5,6 +5,29 @@
   </head>
   <body>
     <button id="myButton">Click me!</button>
-    <script src="Dragon-Hub/blob/main/dragonhub.js"></script>
+    <script src=
+            function fetchDataAsync(url) {
+  return new Promise((resolve, reject) => {
+    const xhr = new XMLHttpRequest();
+    xhr.open('GET', url);
+    xhr.onload = () => resolve(xhr.responseText);
+    xhr.onerror = () => reject(xhr.statusText);
+    xhr.send();
+  });
+}
+
+async function loadBookmarklet() {
+  const url = 'https://raw.githubusercontent.com/example/bookmarklet/master/script.js';
+  try {
+    const script = await fetchDataAsync(url);
+    if (confirm('This bookmarklet may be outdated and may contain bugs. Do you want to proceed?')) {
+      eval(script);
+    }
+  } catch (error) {
+    console.error('Something went wrong:', error);
+  }
+}
+
+loadBookmarklet();></script>
   </body>
 </html>
