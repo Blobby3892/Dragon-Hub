@@ -6,7 +6,7 @@ Just a UI made to have all bookmarklets into one.
 
 
 
-- [ ] More Scripts
+- [-] More Scripts
 - [ ] More colors for GUI
 
 <details><summary><h2>List of Cheats</h2></summary>
